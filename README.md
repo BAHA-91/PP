@@ -18,6 +18,13 @@ This project leverages a **Retrieval-Augmented Generation (RAG)** pipeline for a
 ## Overview
 
 This project provides an API that allows users to upload PDFs and ask questions based on their content. The backend uses a **Retrieval-Augmented Generation (RAG)** pipeline to retrieve relevant document chunks using FAISS, and answers are generated using a Hugging Face LLM.
+## User Interface
+
+Here is a screenshot of the user interface:
+
+![UI Screenshot](UI.PNG)
+
+The interface allows users to upload PDFs and ask questions based on their content.
 
 ### Key Components:
 - **Frontend**: A web interface to upload PDFs and send questions.
